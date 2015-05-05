@@ -51,7 +51,7 @@ Relevant to:
   "@id": "http://graph.demo.wwelves.org/7c95e382-e1c8-420a-8776-e4b26c58347a",
   "@type": "gr:Demand",
   "name": "Requesting 20kg of asparagous",
-  "inReplyto": "http://graph.demo.hackers4peace.net/7c95e382-e1c8-420a-8776-e4b26c58347a"
+  "inReplyto": "http://graph.demo.hackers4peace.net/7c95e382-e1c8-420a-8776-e4b26c58347a",
   "gr:includesObject": {
     "gr:amountOfThisGood": "20",
     "gr:typeOfGood": "http://aims.fao.org/skosmos/agrovoc/en/page/c_669",
