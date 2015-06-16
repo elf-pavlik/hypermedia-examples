@@ -40,7 +40,7 @@ Relevant to:
     "gr:unitCode": "kg"
   },
   "operation": [
-    { "@type": "Respond", "expects": "schema:Demand" }
+    { "@type": "Respond", "expects": "gr:Demand" }
   ]
 }
 ```
@@ -48,7 +48,7 @@ Relevant to:
 ```json
 {
   "@context": "https://w3id.org/plp/v1",
-  "@id": "http://graph.demo.wwelves.org/7c95e382-e1c8-420a-8776-e4b26c58347a",
+  "@id": "http://graph.demo.wwelves.org/1fc9a685-9dbd-462e-9a1b-eabe253210bf",
   "@type": "gr:Demand",
   "name": "Requesting 20kg of asparagous",
   "inReplyto": "http://graph.demo.hackers4peace.net/7c95e382-e1c8-420a-8776-e4b26c58347a",
@@ -58,8 +58,8 @@ Relevant to:
     "gr:unitCode": "kg"
   },
   "operation": [
-    { "@type": "Accept", "expects": "schema:Offer" }
-    { "@type": "Respond", "expects": "schema:Offer" }
+    { "@type": "Accept" }
+    { "@type": "Respond", "expects": "gr:Offer" }
   ]
 }
 ```
